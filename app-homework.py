@@ -14,5 +14,6 @@ def indexhomework():
     return render_template('indexhomework.html', quote=quote, author=author)
 
 
+
 if __name__ == '__main__':
     app.run(debug=True)
